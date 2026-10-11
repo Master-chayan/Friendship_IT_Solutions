@@ -1,0 +1,20 @@
+{
+  "demoAccounts": [
+    { "email": "student@test.com", "password": "password", "role": "student" },
+    { "email": "admin@test.com", "password": "password", "role": "admin" }
+  ],
+  "sampleQuizzes": [
+    { "id": 1, "title": "Basic Fundamentals", "category": "Basics", "time": 10, "questions": 5 },
+    { "id": 2, "title": "Data Structures", "category": "DSA", "time": 15, "questions": 7 },
+    { "id": 3, "title": "Networking 101", "category": "Networking", "time": 12, "questions": 6 }
+  ],
+  "sampleQuestions": {
+    "1": [
+      { "q": "What is a variable?", "opts": ["Container for data", "Function name", "Class method", "Loop statement"], "ans": "A" },
+      { "q": "What does CPU stand for?", "opts": ["Central Process Unit", "Central Processing Unit", "Computer Personal Unit", "Central Processor Update"], "ans": "B" },
+      { "q": "RAM is a type of...", "opts": ["Storage", "Memory", "Processor", "Network"], "ans": "B" },
+      { "q": "What is an algorithm?", "opts": ["Programming language", "Step-by-step procedure", "Data type", "Compiler"], "ans": "B" },
+      { "q": "Binary uses which digits?", "opts": ["0-9", "0-1", "1-9", "A-Z"], "ans": "B" }
+    ]
+  }
+}
