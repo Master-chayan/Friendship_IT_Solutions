@@ -1,20 +1,46 @@
 {
   "demoAccounts": [
     { "email": "student@test.com", "password": "password", "role": "student" },
-    { "email": "admin@test.com", "password": "password", "role": "admin" }
+   
   ],
   "sampleQuizzes": [
     { "id": 1, "title": "Basic Fundamentals", "category": "Basics", "time": 10, "questions": 5 },
-    { "id": 2, "title": "Data Structures", "category": "DSA", "time": 15, "questions": 7 },
-    { "id": 3, "title": "Networking 101", "category": "Networking", "time": 12, "questions": 6 }
+    
   ],
   "sampleQuestions": {
     "1": [
-      { "q": "What is a variable?", "opts": ["Container for data", "Function name", "Class method", "Loop statement"], "ans": "A" },
-      { "q": "What does CPU stand for?", "opts": ["Central Process Unit", "Central Processing Unit", "Computer Personal Unit", "Central Processor Update"], "ans": "B" },
-      { "q": "RAM is a type of...", "opts": ["Storage", "Memory", "Processor", "Network"], "ans": "B" },
-      { "q": "What is an algorithm?", "opts": ["Programming language", "Step-by-step procedure", "Data type", "Compiler"], "ans": "B" },
-      { "q": "Binary uses which digits?", "opts": ["0-9", "0-1", "1-9", "A-Z"], "ans": "B" }
-    ]
+  { "q": "Which file extension is used to save a macro-enabled PowerPoint presentation?", "opts": [".pptx", ".pptm", ".potx", ".ppsx"], "ans": "B" },
+  { "q": "Which keyboard shortcut starts a slide show from the current slide instead of the first slide?", "opts": ["F5", "Ctrl + F5", "Shift + F5", "Alt + F5"], "ans": "C" },
+  { "q": "Which file extension saves a presentation so that it opens directly in Slide Show view?", "opts": [".pptx", ".potx", ".pptm", ".ppsx"], "ans": "D" },
+  { "q": "In Slide Master view, a change made to the topmost (largest) thumbnail affects which of the following?", "opts": ["All slide layouts and the slides that use them", "Only the Title Slide layout", "Only the currently selected slide", "Only the Notes pages"], "ans": "A" },
+  { "q": "In the Animation Pane, which color is used to represent Emphasis effects?", "opts": ["Green", "Yellow", "Red", "Blue"], "ans": "B" },
+  { "q": "Which Start option plays an animation automatically after the previous animation has finished?", "opts": ["On Click", "With Previous", "After Previous", "Repeat Until Slide End"], "ans": "C" },
+  { "q": "During a slide show, pressing which key displays a white screen?", "opts": ["B", "W", "E", "H"], "ans": "B" },
+  { "q": "What is the maximum number of slides per page that can be printed in the Handouts layout?", "opts": ["6", "12", "4", "9"], "ans": "D" },
+  { "q": "What are the dimensions of the default Widescreen (16:9) slide in PowerPoint?", "opts": ["13.333 in x 7.5 in", "10 in x 7.5 in", "11 in x 8.5 in", "12 in x 6.75 in"], "ans": "A" },
+  { "q": "Which of the following is NOT a master view in PowerPoint?", "opts": ["Slide Master", "Table Master", "Handout Master", "Notes Master"], "ans": "B" },
+  { "q": "The Morph transition is used to:", "opts": ["Convert slides into a video", "Merge two presentations into one", "Smoothly animate matching objects between two slides", "Compress all pictures in the file"], "ans": "C" },
+  { "q": "In which tab is the Rehearse Timings option found?", "opts": ["Transitions", "Animations", "Review", "Slide Show"], "ans": "D" },
+  { "q": "Which feature allows the presenter to see speaker notes, the next slide and a timer while the audience sees only the current slide?", "opts": ["Presenter View", "Reading View", "Slide Sorter View", "Outline View"], "ans": "A" },
+  { "q": "In which tab will you find the Slide Size option?", "opts": ["Home", "Design", "View", "Insert"], "ans": "B" },
+  { "q": "Which command imports slides from another presentation without opening that file separately?", "opts": ["Insert > Object", "Home > Paste Special", "Home > New Slide > Reuse Slides", "File > Import"], "ans": "C" },
+  { "q": "Which of the following is NOT a type of Zoom available under Insert > Zoom?", "opts": ["Summary Zoom", "Section Zoom", "Slide Zoom", "Object Zoom"], "ans": "D" },
+  { "q": "Double-clicking the Format Painter button allows you to:", "opts": ["Copy the slide background only", "Apply the copied formatting to multiple objects one after another", "Delete the formatting of the selected object", "Save the formatting as a new theme"], "ans": "B" },
+  { "q": "Pressing Ctrl + D while a slide is selected in the Slide Pane will:", "opts": ["Delete the slide", "Open the Design tab", "Duplicate the slide", "Hide the slide"], "ans": "C" },
+  { "q": "Where do Action Buttons (such as Home, Back and Next) appear in the Ribbon?", "opts": ["Under Insert > Shapes", "Under Transitions", "Under Design > Variants", "Under View > Show"], "ans": "A" },
+  { "q": "Which element helps you group slides into named parts such as Introduction and Conclusion, which can be collapsed or expanded?", "opts": ["Layout", "Section", "Placeholder", "Theme"], "ans": "B" },
+  { "q": "Which keyboard shortcut groups the selected objects into a single object?", "opts": ["Ctrl + G", "Ctrl + Shift + G", "Ctrl + Alt + G", "Alt + G"], "ans": "A" },
+  { "q": "When two overlapping shapes are selected, which Merge Shapes option keeps only the area where the shapes overlap?", "opts": ["Union", "Combine", "Intersect", "Subtract"], "ans": "C" },
+  { "q": "In which view can you type and edit only the text of your slides in an outline form?", "opts": ["Slide Sorter View", "Outline View", "Notes Page View", "Reading View"], "ans": "B" },
+  { "q": "Which keyboard shortcut opens the Selection Pane, used to show, hide or rename objects on a slide?", "opts": ["Ctrl + F10", "Shift + F10", "Alt + F10", "F10"], "ans": "C" },
+  { "q": "What is the purpose of a Custom Slide Show?", "opts": ["To record narration for every slide", "To convert the slides into a video file", "To protect the presentation with a password", "To present only a selected group of slides without deleting the others"], "ans": "D" },
+  { "q": "How is a hidden slide shown in the Slide Pane or Slide Sorter view?", "opts": ["Its slide number has a diagonal line through it", "Its thumbnail is removed from the list", "Its thumbnail is shown with a red border", "Its slide number is replaced by the letter H"], "ans": "A" },
+  { "q": "During a slide show, what happens if you type the number 5 and then press Enter?", "opts": ["Five slides are skipped", "The current slide is repeated five times", "The animation speed is set to 5 seconds", "The show jumps to slide number 5"], "ans": "D" },
+  { "q": "Which Set Up Show option makes the slide show loop continuously, advance automatically and end only when Esc is pressed?", "opts": ["Presented by a speaker (full screen)", "Browsed at a kiosk (full screen)", "Browsed by an individual (window)", "Use Presenter View"], "ans": "B" },
+  { "q": "On a slide layout, the boxes with dotted borders that are meant to hold text, pictures or charts are called:", "opts": ["Text Frames", "Content Cards", "Placeholders", "Anchors"], "ans": "C" },
+  { "q": "Which of the following is a video format available when exporting a presentation to a video in PowerPoint?", "opts": [".mp3", "MPEG-4 Video (.mp4)", ".jpg", ".docx"], "ans": "B" }
+]
+
+
   }
 }
